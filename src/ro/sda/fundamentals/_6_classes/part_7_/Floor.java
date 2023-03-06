@@ -27,10 +27,10 @@ public class Floor {
 
         if (length < 0){
             this.length = 0;
-            System.out.println();
         } else {
             this.length = length;
         }
+        System.out.println("Constructor with parameters has been called!");
     }
 
     public double getWidth() {

@@ -9,7 +9,7 @@ public class Main {
         System.out.println(secondInstance.getName() + " is instance number " + StaticTest.getNumOfInstances());
 
         StaticTest thirdInstance = new StaticTest("3rd instance");
-        System.out.println(firstInstance.getName() + " is instance number " + StaticTest.getNumOfInstances());
+        System.out.println(thirdInstance.getName() + " is instance number " + StaticTest.getNumOfInstances());
 
     }
 }

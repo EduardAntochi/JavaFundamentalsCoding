@@ -39,26 +39,27 @@ total= 36.45
 public class Main {
     public static void main(String[] args) {
 
+
         Carpet carpet = new Carpet(12.5);
         Floor floor = new Floor(5.3, 7.5);
         Calculator calculator = new Calculator(floor, carpet);
 
         System.out.println("The cost for carpeting is " + calculator.getTotalCost());
 
-        Floor anotherFloor = new Floor();
-        Carpet anotherCarpet = new Carpet(3);
-        calculator.setFloor(anotherFloor);
-        calculator.setCarpet(anotherCarpet);
-
-        System.out.println("The cost for another carpeting is " + calculator.getTotalCost());
+//        Floor anotherFloor = new Floor();
+//        Carpet anotherCarpet = new Carpet(3);
+//        calculator.setFloor(anotherFloor);
+//        calculator.setCarpet(anotherCarpet);
+//
+//        System.out.println("The cost for another floor carpeting is " + calculator.getTotalCost());
 
         carpet = new Carpet(5);
-        floor = new Floor(4.5,8);
+        floor = new Floor(4.5, 8);
 
         calculator = new Calculator(floor, carpet);
 
         System.out.println("The cost for carpeting is " + calculator.getTotalCost());
-            }
-        }
+    }
+}
 
 
